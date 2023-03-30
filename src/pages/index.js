@@ -35,7 +35,11 @@ export default function Home() {
               </h1>
               <h1 className="text-xl text-start">
                 Progamming Language?{" "}
-                <span className="text-green-600">JS | .NET | Python</span>
+                <span className="text-green-600">JS | C# | Python</span>
+              </h1>
+              <h1 className="text-xl text-start">
+                Framework{" "}
+                <span className="text-orange-600">Next JS | .NET Core | Flask</span>
               </h1>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

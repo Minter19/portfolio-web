@@ -21,9 +21,8 @@ export default function Home() {
               <h1 className="py-2">H e l l o </h1>
               <h1 className="text-5xl py-2">
                 Saya? <br />
-                
               </h1>
-              
+
               <div className="content">
                 <h2>Minter Prasetyo Rajagukguk{" "}</h2>
                 <h2>Minter Prasetyo Rajagukguk{" "}</h2>
@@ -42,7 +41,7 @@ export default function Home() {
               <h1 className="text-xl text-start">
                 Framework? {" "}
                 <span className="text-orange-600">
-                  Next JS | .NET Core | Flask
+                  ReactJS | Next JS | .NET Core | Flask
                 </span>
               </h1>
               <svg
@@ -66,8 +65,14 @@ export default function Home() {
 
       
       {/* Project Section */}
-      <div className="w-100 h-[500px]">
-        
+      <div className="w-100 border border-red-100 h-[500px] container mx-auto p-4 mb-3 relative">
+        <h1>My Projects</h1>
+        <div className="flex flex-nowrap gap-3 w-100 h-[calc(100%-25px)] overflow-x-scroll">
+          <div className="w-1/4 border rounded-xl">1</div>
+          <div className="w-1/4 border rounded-xl">2</div>
+          <div className="w-1/4 border rounded-xl">3</div>
+          <div className="w-1/4 border rounded-xl">4</div>
+        </div>
       </div>
 
       <Script>

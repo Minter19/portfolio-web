@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import Script from "next/script";
+import Projects from "@/components/Projects";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
@@ -9,71 +11,13 @@ export default function Home() {
         <title title>Minter Prasetyo Rajagukguk</title>
         <meta name="description" content="Generated with create next js" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
-        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
       </Head>
-      <Navbar />
-      <div className="w-100 header finisher-header ">
-        <div className="row w-full">
-          <div className="flex w-full h-[calc(100vh-200px)] justify-center items-center">
-            <div className="container px-2">
-              <h1 className="py-2">H e l l o </h1>
-              <h1 className="text-5xl py-2">
-                Saya? <br />
-              </h1>
-
-              <div className="content">
-                <h2>Minter Prasetyo Rajagukguk{" "}</h2>
-                <h2>Minter Prasetyo Rajagukguk{" "}</h2>
-              </div>
-
-              <h1 className="text-2xl text-start py-2">
-                Biasa dipanggil? <span className="text-teal-500">Minter</span>{" "}
-              </h1>
-              <h1 className="text-xl text-start">
-                Lebih ke? <span className="text-sky-500">WebDev</span>
-              </h1>
-              <h1 className="text-xl text-start">
-                Progamming Language?{" "}
-                <span className="text-green-600">JS | C# | Python</span>
-              </h1>
-              <h1 className="text-xl text-start">
-                Framework? {" "}
-                <span className="text-orange-600">
-                  ReactJS | Next JS | .NET Core | Flask
-                </span>
-              </h1>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="w-8 h-8"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
-                />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-
       
-      {/* Project Section */}
-      <div className="w-100 border border-red-100 h-[500px] container mx-auto p-4 mb-3 relative">
-        <h1>My Projects</h1>
-        <div className="flex flex-nowrap gap-3 w-100 h-[calc(100%-25px)] overflow-x-scroll">
-          <div className="w-1/4 border rounded-xl">1</div>
-          <div className="w-1/4 border rounded-xl">2</div>
-          <div className="w-1/4 border rounded-xl">3</div>
-          <div className="w-1/4 border rounded-xl">4</div>
-        </div>
-      </div>
+      
+      <Navbar />
+      <Hero />
+      <Projects />
+      
 
       <Script>
         {`

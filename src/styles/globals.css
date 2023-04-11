@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+}
 
 .content{
     position: relative;
@@ -13,6 +16,7 @@
     position: absolute;
     color: #fff;
     font-size: 4em;
+    font-weight: 600;
 }
 
 .content h2:nth-child(1){

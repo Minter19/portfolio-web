@@ -76,7 +76,7 @@ function Navbar() {
                   <a> - Education</a>
                 </li>
                 <li>
-                  <a> - Projects</a>
+                  <a href="#project-section"> - Projects</a>
                 </li>
                 <li>
                   <a> - Social Media</a>
@@ -105,8 +105,14 @@ function Navbar() {
           </ul>
         </div>
         <a className="btn btn-ghost normal-case text-xl">
-        <Image src="/assets/logo-removebg.png" width="60" height="60" className="rounded-full"/>
-          &nbsp;Minter PrR
+          <Image
+            src="/assets/logo-removebg.png"
+            width="60"
+            height="60"
+            alt="logo"
+            className="rounded-full h-auto w-auto"
+          />
+          &nbsp;<span className="hidden md:block">Minter PrR</span>
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -163,7 +169,7 @@ function Navbar() {
                 <a> - Education</a>
               </li>
               <li>
-                <a> - Projects</a>
+                <a href="#project-section"> - Projects</a>
               </li>
               <li>
                 <a> - Social Media</a>
@@ -193,7 +199,9 @@ function Navbar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a href="https://github.com/Minter19" className="btn">Go to GitHub</a>
+        <a href="https://github.com/Minter19" className="btn">
+          Go to GitHub
+        </a>
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Script from "next/script";
 import Projects from "@/components/Projects";
 import Hero from "@/components/Hero";
+import Social from "@/components/Social";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Projects />
-      
+      <Social />
 
       <Script>
         {`

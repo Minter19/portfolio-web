@@ -4,7 +4,7 @@ function Projects() {
   return (
     <>
       {/* Project Section */}
-      <div id="project-section" className="w-100 h-[500px] container mx-auto p-4 mb-3 relative">
+      <div id="project-section" className="w-100 min-h-[400px] container mx-auto p-4 mb-3 relative">
         <h3 className="py-3 text-2xl font-bold">
           <svg
             xmlns="http://www.w3.org/2000/svg"

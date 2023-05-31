@@ -9,17 +9,23 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title title>Minter Prasetyo Rajagukguk</title>
+        <title>Minter Prasetyo Rajagukguk</title>
         <meta name="description" content="Generated with create next js" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
       </Head>
-      
-      
+
       <Navbar />
       <Hero />
+      
       <Projects />
       <Social />
-
+      
+      
+      <Script
+        src="//code.tidio.co/z21odwvp99ahsfgdbwekclkyb893xhcm.js"
+        async=""
+      ></Script>
       <Script>
         {`
           new FinisherHeader({

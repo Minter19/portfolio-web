@@ -37,3 +37,15 @@ html{
         clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%,0% 100%) 
     }
 }
+#rocket{
+    color: red;
+    animation: rocketUp 2s ease-in-out infinite;
+}
+@keyframes rocketUp {
+    from{
+        transition: all;
+    }
+    to{
+        translate: 100vw;
+    }
+}

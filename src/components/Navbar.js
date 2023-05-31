@@ -172,7 +172,7 @@ function Navbar() {
                 <a href="#project-section"> - Projects</a>
               </li>
               <li>
-                <a> - Social Media</a>
+                <a href="#social-section"> - Social Media</a>
               </li>
             </ul>
           </li>
